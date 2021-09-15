@@ -1,0 +1,254 @@
+.Tm-header{
+    background-color: #004562;
+    height: 10%;
+}
+
+#Tm-haegertime-logo{
+
+    height: 7%;
+    width: 7%;
+}
+#Tm-header-navBar{
+    height: 5%;
+}
+
+#Tm-ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #004562; 
+}
+#Tm-ul li{
+    /*display: inline;*/
+    float: left;
+}
+
+#Tm-ul li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 40px;
+    text-decoration: none;
+}
+
+#selected-a-Tags{
+    
+    background-color: #047db1;
+}
+
+#Tm-ul li a:hover{
+    background-color: #047db1;
+}
+
+
+
+#Tm-main{
+
+    text-align: center;
+    border-radius: 5px;
+    background-color: aliceblue;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#Tm-table {
+    border-collapse: collapse;
+    border: 0.1px solid;
+    width: 50%;
+    height: 80;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #047db1;
+    border-radius: 10px;
+  }
+  
+  /*#Tm-table td, #Tm-table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }*/
+  #Tm-table tr{
+
+    width: 100%;
+  }
+
+  .Tm-Table-Column{
+    border-radius: 5px;
+    padding: 8px;
+    text-align: center;
+    width: 30%;
+    color: white;
+  }
+  
+  #Tm-table tr:hover {background-color: #004562;}
+  
+  #Tm-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #047db1;
+    color: white;
+  }
+
+  .title{
+      color: white;
+      background-color: #047db1;
+      text-align: center;
+      align-items: center;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .Tm-Table-Column-button{ border-radius: 5px;}
+
+  
+
+  .Tm-details-button {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: #004562;
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.Tm-details-button:hover {
+    background-color: #047db1;
+}
+
+.Tm-Table-row-Newbutton{
+    background-color: #004562;
+    width: 100%;
+
+    border-radius: 10px;
+ }
+
+ 
+.Tm-neu-button{
+    align-items: center;
+    display: block;
+    margin-left: 0%;
+    margin-right: auto;
+    background-color: #004562;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+
+}
+
+.Tm-neu-button:hover {
+    background-color: #047db1;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+/*.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}*/
+/*#Tm-footer{
+    margin: auto;
+    /*padding-left: 30%;
+    /*padding-right: 5%;*/
+    /*height: 10%;
+}*/
+
+[class*="col-"] {
+    float: left;
+    padding: 0px;
+}
+#Tm-footer{
+
+    height: 100px;
+}
+#Tm-foot1{
+    color: white;
+    height: 250px;
+    width: 50%;
+    text-align: center;
+    background-color: #004562;
+    padding-bottom: 0%;
+    
+}
+
+
+#Tm-foot2{
+    color: white;
+    height: 250px;
+    width: 50%;
+    text-align: center;
+    background-color: #004562;
+
+}
+
+/*.Tm-footer{
+    display: block;
+    background-color: #004562;
+    height: 10%;
+    /*width: 100%;*/
+    
+
+/*}*/
+
+.Tm-icone-Contact{
+    height: 15px;
+    width: 15px;
+    opacity: 0.5;
+    border-radius: 20px;
+
+
+}
+
+/*#Tm-foot1{
+
+    align-content: center;
+    background-color: red;
+}*/
+/*.Tm-tmp{
+    margin: auto;
+    text-align: left;
+
+}*/
+
+.Tm-icone{
+    height: 44px;
+    width: 43px;
+    opacity: 0.8;
+    border-radius: 20px;
+    margin-bottom: 11px;
+
+}
+

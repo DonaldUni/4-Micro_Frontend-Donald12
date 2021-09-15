@@ -1,0 +1,129 @@
+#NR-ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: deepskyblue; 
+}
+#NR-ul li{
+    /*display: inline;*/
+    float: left;
+}
+
+#NR-ul li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px 60px;
+    text-decoration: none;
+}
+
+#NR-ul li a:hover{
+    background-color: darkcyan;
+}
+
+#NR-main{
+
+    text-align: center;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+#NR-table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  
+#NR-table td, #Tm-table th {
+    
+    padding: 8px;
+}
+
+.NR-td-input{
+    width: 75%;
+}
+  
+#NR-table tr:nth-child(even){background-color: #f2f2f2;}
+  
+#NR-table tr:hover {background-color: #ddd;}
+  
+#NR-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: deepskyblue;
+    color: white;
+}
+
+
+#NR-main input[type=text] {
+    width: 100%;
+    padding:  5px;
+    margin: 2px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#NR-newRecordButton {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    display: block;
+    margin-left: 40%;
+    margin-right: auto;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+#NR-newRecordButton:hover {
+    background-color: lightyellow;
+}
+
+#NR-main select {
+    width: 100%;
+    padding:  5px;
+    margin: 2px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+}
+
+#showMessage{
+
+    color: white;
+    background-color: thistle;
+
+}
+
+#NR-nothing{
+    display: none;
+}
+
+
+
+
+
+
+

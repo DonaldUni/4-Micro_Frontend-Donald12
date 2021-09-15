@@ -1,0 +1,159 @@
+#Home2-Body{
+
+    background-color: #004562;
+    
+}
+
+
+
+#H-header{
+    height: 10%;
+    width: 100%;
+    /*background-color: #004562;*/
+}
+
+    #H-Logo{
+        height: 10%;
+        width: 10%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+#H-main{
+    background-color: #004562;
+    width: 100%;
+    clear: both;
+    
+}
+
+#H-MainLastPart{
+    height: 550px;
+}
+
+#H-div-LastPart{
+    clear: both;
+
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
+#H-Part{
+    margin: auto;
+    padding-left: 30%;
+    padding-right: 10%;
+
+    height: 80%;
+
+    /*background-color: #004562;*/
+}
+
+[class*="H-Main"] {
+
+    float: left;
+    padding: 0px;
+}
+
+.H-MainLeftPart{
+    height: 100%;
+    width: 20%;
+}
+
+#Ralf-Foto{
+    height: 250px;
+    width: 100%;
+}
+
+.H-MainRigthPart{
+    width: 40%;
+    text-align: center;
+    background-color: #004562;
+    margin-bottom: 10px;
+    
+    
+}
+
+#H-div-title{
+    color: white;
+}
+
+#H-main-paragraph{
+    color: white;
+    text-align: center;
+}
+
+#H-bouton-functions{
+
+    padding-top: 45px;
+}
+
+#button-Admin{
+
+    background-color: #047db1;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+    width: 120px;
+    height: 50px;
+
+}
+
+#button-Employee{
+
+    background-color: #047db1;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+    width: 120px;
+    height: 50px;
+
+
+}
+
+#button-Admin:hover{
+
+    background-color: #004562;
+
+}
+
+#button-Employee:hover{
+
+    background-color: #004562;
+
+}
+
+
+
+
+#button-Admin{
+    margin-right: 30px;
+}
+
+
+    

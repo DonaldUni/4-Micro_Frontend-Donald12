@@ -1,0 +1,115 @@
+#Tm-ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: deepskyblue; 
+}
+#Tm-ul li{
+    /*display: inline;*/
+    float: left;
+}
+
+#Tm-ul li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px 60px;
+    text-decoration: none;
+}
+
+#Tm-ul li a:hover{
+    background-color: darkcyan;
+}
+
+#Tm-main{
+
+    text-align: center;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+#Tm-table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    height: auto;
+    border: solid;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #Tm-table td, #Tm-table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #Tm-table tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #Tm-table tr:hover {background-color: #ddd;}
+  
+  #Tm-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: deepskyblue;
+    color: white;
+  }
+
+  .Tm-details-button {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: deepskyblue;
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.Tm-details-button:hover {
+    background-color: cadetblue;
+}
+
+.Tm-neu-button{
+    align-items: center;
+    display: block;
+    margin-left: 25%;
+    margin-right: auto;
+
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: deepskyblue;
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+
+}
+
+.Tm-neu-button:hover {
+    background-color: cyan;
+}
+
+
+
+
+
+

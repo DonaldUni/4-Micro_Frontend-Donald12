@@ -1,0 +1,47 @@
+
+#Me-ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: deepskyblue; 
+}
+#Me-ul li{
+    /*display: inline;*/
+    float: left;
+}
+
+#Me-ul li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px 60px;
+    text-decoration: none;
+}
+
+#Me-ul li a:hover{
+    background-color: darkcyan;
+}
+
+#Me-main{
+
+    text-align: center;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+
+
+#Me-main input[type=text] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
